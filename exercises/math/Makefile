@@ -1,3 +1,6 @@
+all : Out.txt
+	cat Out.txt #Writing results
+
 Out.txt : math.exe
 	mono math.exe > Out.txt
 
