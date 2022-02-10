@@ -14,4 +14,4 @@ machineEpsilon.dll : machineEpsilon.cs
 	mcs -target:library  machineEpsilon.cs
 
 clean :
-	rm -f eplison.exe Out.txt test.txt
+	rm -f epsilon.exe Out.txt test.txt machineEpsilon.dll
