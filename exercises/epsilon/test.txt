@@ -1,0 +1,8 @@
+approx returns true for (int) 1, (int) 1
+approx returns false for (int) 1, (int) -1
+approx returns true for (double) 1, (int) 1
+approx returns true for (double) 1, (float) 1
+approx returns true for (double) 2, (float) 2
+approx returns true for (double) 1.11022302462516E-16, (double) 1.11022302462516E-11
+approx returns false for (double) 2097152, (double) 2097150
+approx returns true for (double) 6.58108519211336E+16, (double) 7.31231688012595E+15
