@@ -12,7 +12,7 @@ using static System.Math;
 		public static vec operator+(vec u, vec v) {return new vec (u.x+v.x, u.y+v.y, u.z+v.z);}
 		public static vec operator-(vec u, vec v) {return new vec (u.x-v.x, u.y-v.y, u.z-v.z);}
 		public static vec operator+(vec v) {return +v;}
-		public static vec operator-(vec v) {return -v;}
+		public static vec operator-(vec v) {return new vec(-v.x, -v.y, -v.z);}
 		public static bool operator== (vec v, vec u) {if(u.x==v.x && u.y == v.y && u.z == v.z ) {return true;} else {return false;}}
 		public static bool operator!= (vec v, vec u) {if(u.x==v.x && u.y == v.y && u.z == v.z ) {return false;} else {return true;}}
 		//methods:

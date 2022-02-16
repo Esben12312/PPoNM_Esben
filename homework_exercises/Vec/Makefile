@@ -1,8 +1,8 @@
 WPR : Out.txt
 	cat Out.txt	
-
-Test : test.txt
 	cat test.txt
+
+
 
 Out.txt : main.exe
 	mono main.exe  > Out.txt
