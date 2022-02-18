@@ -1,7 +1,10 @@
-out.txt : hello.exe
-	mono hello.exe > out.txt
+all : Out.txt
+	cat Out.txt
+
+Out.txt : hello.exe
+	mono hello.exe > Out.txt
 
 hello.exe : hello.cs
 	mcs hello.cs
 clean:
-	rm -f out.txt hello.exe
+	rm -f [Oo]ut.txt hello.exe

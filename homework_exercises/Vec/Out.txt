@@ -1,0 +1,44 @@
+Initializing a new test.
+Testing that new vec() and new vec (0, 0, 0).
+Test no. 1. = Succes
+Testing the test method without operators, a==a, a!=b, 0==0.
+Test no. 2. = Succes
+Test no. 3. = Succes
+Test no. 4. = Succes
+Testing the test method for vectors and doubles, vec()!=0, vec(1,0,0)!=1.
+Test no. 5. = Succes
+Test no. 6. = Succes
+Testing the vector operators, addition.
+Test no. 7. = Succes
+Test no. 8. = Succes
+Testing the vector operators, subtraction.
+Test no. 9. = Succes
+Test no. 10. = Succes
+Test no. 11. = Succes
+Testing the vector operators, multiplication with double.
+Test no. 12. = Succes
+Test no. 13. = Succes
+Test no. 14. = Succes
+Testing the vector operators, minus vec.
+Test no. 15. = Succes
+Test no. 16. = Succes
+Test no. 17. = Succes
+Testing the vector operators, Combinations of tested operators.
+Test no. 18. = Succes
+Test no. 19. = Succes
+Test no. 20. = Succes
+Testing the vector operators, Norm.
+Test no. 21. = Succes
+Test no. 22. = Succes
+Test no. 23. = Succes
+Testing the vector operators, Dot product.
+Test no. 24. = Succes
+Test no. 25. = Succes
+Test no. 26. = Succes
+Testing the vector operators, cross product.
+Test no. 27. = Succes
+Test no. 28. = Succes
+Testing the vector operators, approximation.
+All tests returned Succes
+Program succesfully executed.
+

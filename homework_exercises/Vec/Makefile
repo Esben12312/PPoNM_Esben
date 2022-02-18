@@ -1,6 +1,5 @@
 WPR : Out.txt
 	cat Out.txt	
-	cat test.txt
 
 
 
@@ -17,4 +16,4 @@ vec.dll : vec.cs
 	mcs -target:library vec.cs
 
 clean :
-	rm -f main.exe Out.txt test.txt vectest.dll vec.dll
+	rm -f main.exe Out.txt vectest.dll vec.dll
