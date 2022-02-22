@@ -1,0 +1,29 @@
+-7.100000e+000 
+2.950000e+000 
+4.120000e+000 
+5.420000e+000 
+1.230000e+000 
+2.341000e+002 
+List size: 6.
+Removing entries 2 then entry 3 twice, and re-writing.
+List size: 5.
+List capacity: 8.
+-7.100000e+000 
+2.950000e+000 
+5.420000e+000 
+1.230000e+000 
+2.341000e+002 
+List size: 3.
+List capacity: 4.
+-7.100000e+000 
+2.950000e+000 
+5.420000e+000 
+Removing index 1 four times to test attempting to remove nothing.
+IndexOutOfRangeExeption.
+-7.100000e+000 
+List size: 1.
+List capacity: 2.
+Try removing index -1 to test attempting bad index.
+IndexOutOfRangeExeption, removing -1 not posible.
+List size: 1.
+List capacity: 2.
