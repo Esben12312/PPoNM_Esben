@@ -1,0 +1,7 @@
+The inital value for the harmonic sum in the current thread is 0
+Now the harmonic sum works on its own thread
+The harmonic sum in the current thread is 0
+Add one to the harmonic sum to test allow changes without chaning the thread
+The harmonic sum in the current thread is 1
+Joining the two threads
+Gives the harmonic sum from 1 to 1000 equals 7.48547086055034
