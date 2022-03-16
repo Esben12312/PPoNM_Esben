@@ -16,5 +16,8 @@ main.exe: main.cs matlib.dll
 numint.exe: numint.cs matlib.dll
 	mcs $< -out:numint.exe -target:exe -reference:matlib.dll
 
+matlib.dll:matlib.cs
+	mcs -target:library $<
+
 clean:
-	rm -r *.exe *.txt *.png
+	rm -r *.exe *.txt *.png *.dll
