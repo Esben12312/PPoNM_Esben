@@ -1,0 +1,37 @@
+Testing QRGS decomposion:
+Initial random 4 by 3 matrix:
+
+        10          6          2 
+         8         10          9 
+        10          4          7 
+         3          8         10 
+Orthogonalizing...
+QRGS decomposed matrices:
+Q:
+
+     0.605     -0.185     -0.645 
+     0.484      0.504     -0.154 
+     0.605     -0.436      0.665 
+     0.182      0.722      0.344 
+R:
+
+      16.5       12.3       11.6 
+         0       7.97       8.34 
+         0          0       5.42 
+Control of the result
+Test 1: Q^T*Q ~ I, returns: True 
+
+Test 2: QR ~ A, returns: True 
+
+Testing lin. eq. solver
+Initial random 4 by 4 matrix:
+
+         5          3          8          6 
+         3          8          5          6 
+         6          1          8          5 
+         3          8          8          6 
+Initial random vector of dimension 4:
+         3          5          1          4 
+**solving**
+Testing Ax ~ b: True 
+

@@ -4,10 +4,10 @@ all: Out.Integral.txt gamma.png
 gamma.png: err.pyxplot.gpi Out.txt
 	pyxplot err.pyxplot.gpi
 
-Out.Integral.txt: numint.exe
+Out.txt: numint.exe
 	mono $< > $@
 
-Out.txt: main.exe
+Out.plot.txt: main.exe
 	mono $< > $@
 
 main.exe: main.cs matlib.dll
@@ -20,4 +20,7 @@ matlib.dll:matlib.cs
 	mcs -target:library $<
 
 clean:
-	rm -r *.exe *.txt *.png *.dll
+	rm -r *.exe *.txt *.plot.txt *.png *.dll
+
+upload:
+    rm -r *.exe *.plot.txt *.dll

@@ -5,4 +5,4 @@ set ylabel "$erf(x)$"
 set key bottom right
 set grid
 set title "Error function using integral representation"
-plot "Out.txt" with lines title "erf(x)"
+plot "Out.Plot.txt" with lines title "erf(x)"
