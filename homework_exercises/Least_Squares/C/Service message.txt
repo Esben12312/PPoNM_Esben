@@ -1,3 +1,0 @@
-
-The plot with uncertianty limits is plotted in fit_plot.PNG
-
