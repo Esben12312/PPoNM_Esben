@@ -1,0 +1,10 @@
+
+The covariance-matrix is:
+
+   0.00101  -0.000108 
+ -0.000108   1.62e-05 
+
+ lambda is fitted to a value of 0.172070796448845 +/- 0.00402918677701604
+This corresponds to a half-life of 4.02826740426003 +/- 0.0162306417595292 days
+half-life tabulated at 3.63 days uncertainties unknown
+The estimated uncertainties illustrates a large discrepancy from the tabulated half-life
