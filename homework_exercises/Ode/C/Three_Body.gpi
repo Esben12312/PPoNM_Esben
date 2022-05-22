@@ -1,0 +1,10 @@
+set terminal png
+set output "Three_Body.png"
+set key top right
+set xlabel "x"
+set ylabel "y"
+set grid
+plot [-2:2][-1:1]\
+	"Three_Body.txt" using 2:3 with lines linetype 1 title "Body 1",\
+	"Three_Body.txt" using 6:7 with lines linetype 2 title "Body 2",\
+	"Three_Body.txt" using 10:11 with lines linetype 3 title "Body 3"

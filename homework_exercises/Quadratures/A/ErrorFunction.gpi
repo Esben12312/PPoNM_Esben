@@ -1,0 +1,10 @@
+set terminal png
+set out ErrorFunction.png
+set xlabel "$x$"
+set ylabel "$\Gamma(x)$"
+set key outside
+set grid
+set title "Error function Implemented by adaptive integrator"
+plot [][]\
+	"Erf.txt" with lines title "$\Gamma(x) - Integrator$" ,\
+	"table_Erf.txt" with points pointtype 17 title "Table Values(WolframAlpha)"

@@ -1,0 +1,11 @@
+set terminal png ;\
+set output "Spline.png" ;\
+set xlabel "$x$" ;\
+set ylabel "$y$" ;\
+set title "Linear spline" ;\
+set grid ;\
+set key outside ;\
+plot[0:5][-1.5:1.5] \
+	"out.txt" index 0 using 1:2 with points title "$f(x) = \cos(x)$, tabulated",\
+	"out.txt" index 1 using 1:2 with lines title "Linear interpolation",\
+	"out.txt" index 1 using 1:3 with lines title "integral of interpolation ($\sin(x)$)"

@@ -1,0 +1,23 @@
+
+
+
+
+Jacobi Diagonalized matrix non-optimized:
+
+     -4.77   1.48e-10  -1.33e-15          0   1.53e-09 
+  1.48e-10      -2.23   1.27e-21   1.02e-10  -3.31e-10 
+ -9.54e-16  -7.11e-16      0.806  -3.03e-09   9.72e-15 
+  3.57e-16   1.02e-10  -3.03e-09          9  -4.81e-16 
+  1.53e-09  -3.31e-10   1.08e-14   1.85e-15       19.2 
+
+
+Jacobi Diagonalized matrix optimized:
+
+     -4.77   1.48e-10  -1.33e-15          0   1.53e-09 
+  1.48e-10      -2.23   1.27e-21   1.02e-10  -3.31e-10 
+ -9.54e-16  -7.11e-16      0.806  -3.03e-09   9.72e-15 
+  3.57e-16   1.02e-10  -3.03e-09          9  -4.81e-16 
+  1.53e-09  -3.31e-10   1.08e-14   1.85e-15       19.2 
+
+
+To control they give similar answers for an identical random matrix

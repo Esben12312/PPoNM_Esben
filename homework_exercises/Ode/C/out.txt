@@ -1,0 +1,7 @@
+
+Three body diagram using previously made ode45
+
+The solution is illustrated in Three_Body.png
+Initial values found at http://www.artcompsci.org/msa/web/vol_1/v1_web/node45.html
+
+

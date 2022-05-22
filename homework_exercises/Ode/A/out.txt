@@ -1,0 +1,4 @@
+
+Solving the ODE from SciPy
+The result is illustrated in Ode45.png
+

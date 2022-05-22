@@ -1,0 +1,9 @@
+set terminal png
+set output "Opimized_Ode45.png"
+set key bottom right
+set xlabel "Time"
+set ylabel "Solution"
+set grid
+plot [][]\
+	"Optimized_ode45.txt" index 0 using 1:2 with line linetype 1 title "$\theta$(t)",\
+	"Optimized_ode45.txt" index 0 using 1:3 with line linetype 1 title "$\omega$(t)"\

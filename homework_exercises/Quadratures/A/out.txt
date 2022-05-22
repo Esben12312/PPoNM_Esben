@@ -1,0 +1,10 @@
+Testing on some knwon suggested integrals:
+
+Integral sqrt(x) from 0 to 1: 0.666953909054655, expected 2/3
+Integral 1/sqrt(x) from 0 to 1: 1.99996150007805, expected 2
+Integral 4*sqrt(1-x^2) from 0 to 1: 3.14183457802727, expected Pi
+Integral ln(x)/sqrt(x) from 0 to 1: -3.99991705899915, expected -4
+
+------------------------------------
+Using the AdaptiveIntegrator to implement the error function
+The result is plotted in erf.png along some table values

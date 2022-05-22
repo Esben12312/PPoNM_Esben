@@ -1,0 +1,16 @@
+set terminal png
+set output "RCon.png"
+set key out
+set xlabel "rmax"
+set ylabel "Energy"
+set grid
+f(x) = -0.4998
+g(x) = -0.1249
+h(x) = -0.05553
+plot [2:30][-1:1]\
+	[0:20][-1:2] "r_con.txt" index 0 using 1:2 with points pointtype 31 title "Numerical $E_0$",\
+	"r_con.txt" index 0 using 1:3 with lines linetype 5 title "tabulated $E_0$",\
+	"r_con.txt" index 1 using 1:2 with points pointtype 31 title "Numerical $E_1$",\
+    "r_con.txt" index 1 using 1:3 with lines linetype 5 title "tabulated $E_1$",\
+	"r_con.txt" index 2 using 1:2 with points pointtype 31 title "Numerical $E_2$",\
+    "r_con.txt" index 2 using 1:3 with lines linetype 5 title "tabulated $E_2$"
