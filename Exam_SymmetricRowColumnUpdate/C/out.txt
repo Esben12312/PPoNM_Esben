@@ -1,0 +1,1 @@
+Testing O(N^2) operations through timing, see plot Timing.png for result.

@@ -1,0 +1,47 @@
+Generating a Random 9 by 9 symmetric diagonal matrix D:
+
+        17          0          0          0          0          0          0          0          0 
+         0         44          0          0          0          0          0          0          0 
+         0          0          1          0          0          0          0          0          0 
+         0          0          0         50          0          0          0          0          0 
+         0          0          0          0         41          0          0          0          0 
+         0          0          0          0          0         71          0          0          0 
+         0          0          0          0          0          0         86          0          0 
+         0          0          0          0          0          0          0          3          0 
+         0          0          0          0          0          0          0          0         52 
+
+
+Generating a Random 9 vector with u_p = 0
+         3          8          3          6          0          4         10          8          2 
+
+
+Determined A matrix:
+
+        17          0          0          0          3          0          0          0          0 
+         0         44          0          0          8          0          0          0          0 
+         0          0          1          0          3          0          0          0          0 
+         0          0          0         50          6          0          0          0          0 
+         3          8          3          6         41          4         10          8          2 
+         0          0          0          0          4         71          0          0          0 
+         0          0          0          0         10          0         86          0          0 
+         0          0          0          0          8          0          0          3          0 
+         0          0          0          0          2          0          0          0         52 
+
+
+Calculating Eigenvalues
+Solution found, eigenvalue 1: 33.2839399442944
+Solution found, eigenvalue 2: 47.1016632361235
+Solution found, eigenvalue 3: 1.67527807368682
+Solution found, eigenvalue 4: 51.7509940411131
+Solution found, eigenvalue 5: 54.4297171689969
+Solution found, eigenvalue 6: 71.5005697380674
+Solution found, eigenvalue 7: 88.3291817374415
+Solution found, eigenvalue 8: 16.6307560413938
+Solution found, eigenvalue 9: 0.297900018816978
+      33.3       47.1       1.68       51.8       54.4       71.5       88.3       16.6      0.298 
+
+
+Testing that Eigenvalues returns approx 0-vector: True
+
+
+  3.21e-14  -2.96e-14  -6.11e-15   1.53e-13  -2.81e-10  -6.64e-12  -2.97e-14  -6.45e-14  -1.13e-14 

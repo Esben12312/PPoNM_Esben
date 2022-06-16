@@ -1,0 +1,35 @@
+Generating a Random 9 by 9 symmetric diagonal matrix D:
+
+        77          0          0          0          0          0          0          0          0 
+         0         90          0          0          0          0          0          0          0 
+         0          0         16          0          0          0          0          0          0 
+         0          0          0         85          0          0          0          0          0 
+         0          0          0          0         10          0          0          0          0 
+         0          0          0          0          0          6          0          0          0 
+         0          0          0          0          0          0         31          0          0 
+         0          0          0          0          0          0          0         63          0 
+         0          0          0          0          0          0          0          0         76 
+
+
+Generating a Random 9 vector with u_p = 0
+         2          7          2          3          0         10          9          5          2 
+
+
+Determined A matrix:
+
+        77          0          0          0          2          0          0          0          0 
+         0         90          0          0          7          0          0          0          0 
+         0          0         16          0          2          0          0          0          0 
+         0          0          0         85          3          0          0          0          0 
+         2          7          2          3         10         10          9          5          2 
+         0          0          0          0         10          6          0          0          0 
+         0          0          0          0          9          0         31          0          0 
+         0          0          0          0          5          0          0         63          0 
+         0          0          0          0          2          0          0          0         76 
+
+
+Determined eigenvalues using A
+Determining most dominant eigenvalue and its eigenvector using power iteration method.
+      77.1       90.7       16.8       85.1       14.1      -3.81       34.5       63.5       76.1 
+Determined dominant eigenvector with eigenvalue 90.6533450115595:
+    0.0136      0.994    0.00249     0.0492     0.0928      0.011      0.014     0.0168     0.0127 

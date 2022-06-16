@@ -1,0 +1,13 @@
+set terminal png
+set output "Timing.png"
+set key left
+set xlabel "$n \cdot n$ matrix"
+set ylabel "Time elapsed [ms]"
+set grid
+set title "Illustration of O($n^2$) operations through timing"
+f(x) = a*x*x
+fit f() withouterrors "times.txt" using 1:2 via a,b 
+plot [][]\
+	"times.txt" index 0 using 1:2 with points pointtype 31 title "Newton-Raphson method", \
+	f(x) with color red title "Fit to $a \cdot n^2 + b$"
+	

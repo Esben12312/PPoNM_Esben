@@ -1,0 +1,14 @@
+set terminal png
+set output "Convergence.png"
+set key top right
+set xlabel "Iterations"
+set ylabel "Function value"
+set grid
+set title "Convergence for first 5 eigenvalues"
+plot [][]\
+	"Convergence.txt" index 0 using 0:1 with lines linetype 2 notitle, \
+	"Convergence.txt" index 1 using 0:1 with lines linetype 2 notitle, \
+	"Convergence.txt" index 2 using 0:1 with lines linetype 2 notitle, \
+	"Convergence.txt" index 3 using 0:1 with lines linetype 2 notitle, \
+	"Convergence.txt" index 4 using 0:1 with lines linetype 2 notitle, \ 
+	"Convergence.txt" index 5 using 0:1 with lines linetype 2 notitle
