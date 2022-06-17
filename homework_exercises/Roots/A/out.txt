@@ -1,0 +1,13 @@
+Minimization using newton method.
+
+Initial testing: f(x)=x-5, f(x)=(x^2-2).
+
+Test function Roots found at (5), (1.41499843051279), Expected: (5), (sqrt(2)).
+With randomized ininital starting quess (3), in 2 and 6 steps respectively.
+
+
+Determining roots for Rosenbrock's valley function, f(x,y)=(1-x)^2+100(y-x^2)^2.
+
+Rosenbrock root at (1.00073242942032,0.995911734190561) found after 27 steps.
+With randomized ininital starting quess (5,8).
+Expected root at (1,1).

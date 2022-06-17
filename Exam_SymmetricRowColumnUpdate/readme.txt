@@ -17,9 +17,12 @@ This succesfully finds the highest eigenvalue and agrees with the implemented Ne
 
 
 Folder C: 
-Adds timing to illustrate that we infact has a b*O(n^2) correspondance.
+Adds timing to illustrate that we infact has a b*O(n^2) correspondance, this can be done due to the linear nature between how long time it takes between finding the solutions and the amount of operations.
 This is done by solving A with multiple dimension n and timing how long the eigenvalue computation takes. 
 Then a fit to a function ax^2+b, which illustrates good correspondance to O(n^2) operations computed, however since <i> is very dependant on the semirandom initial guesses thus a large variation is illustrated in the points.
+
+Futhermore the timing has been compared to that of the optimized jacobi method implemented in homework exercise Eigenvalues, here its illustrated that for n<150 the O(n^3) jacobi method is superior to the implemented O(n^2) Newton-Raphson method. 
+With the found fitting parameters of 0.09 and 2.49e-5 a symmetric matrix larger than approx n=3600 is needed before the implemented Newton-Raphson method becomes optimal.
 
 The timing plot is visiable in Timing.png. (Note this part takes 45 seconds to run due to multiple iterations with increasing matrix sizes.)
 

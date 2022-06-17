@@ -8,8 +8,11 @@ Timing.png: Timing.gpi times.txt
 out.txt: main.exe
 	mono $< 1> out.txt 2> times.txt
 
-main.exe: main.cs matrix.dll vec.dll Symeig.dll
-	mcs $< -reference:matrix.dll,vec.dll,Symeig.dll
+main.exe: main.cs matrix.dll vec.dll Symeig.dll Eig.dll
+	mcs $< -reference:matrix.dll,vec.dll,Symeig.dll,Eig.dll
+
+Eig.dll: Eig.cs vec.dll matrix.dll
+	mcs $< -target:library -reference:vec.dll,matrix.dll
 
 Symeig.dll: Symeig.cs vec.dll matrix.dll
 	mcs $< -target:library -reference:vec.dll,matrix.dll

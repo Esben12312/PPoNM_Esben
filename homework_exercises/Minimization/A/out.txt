@@ -1,0 +1,12 @@
+Minimization using quasi-newton method
+Determining minimum for Rosenbrock's valley function, f(x,y)=(1-x)^2+100(y-x^2)^2
+
+Rosenbrock minimum at (0.99999548533156,0.999990957029685) found after 183 steps
+With randomized ininital starting quess (0,0)
+Expected minimum at (1,1)
+Determining minimum for Himmelblau's function, f(x,y)=(x^2+y-11)^2+(x+y^2-7)^2.
+
+Himmelblau minimum at (3.58442830674014,-1.84812653411078) found after 35 steps
+With randomized ininital starting quess (6,12)
+Expected minimum at either (3,2), (-3.78,-3.28), (-2.81, 3.13),(3.58,-1.85). 
+ This depends on randomized starting guesses
